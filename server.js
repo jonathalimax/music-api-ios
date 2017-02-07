@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 8000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/music-app');
+mongoose.connect(process.env.MONGODB_URI);
 
 // Set router
 var router = express.Router();

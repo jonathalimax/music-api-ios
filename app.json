@@ -1,0 +1,8 @@
+{
+  "name": "Music API Json",
+  "description": "An API using Express to retrieve musics",
+  "repository": "",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static", "ios"],
+  "image": "heroku/nodejs"
+}
